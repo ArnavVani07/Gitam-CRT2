@@ -1,0 +1,29 @@
+A       B          A&&B      A||B      !A                        |
+T       T             T               T          F                         |
+T       F              F               T         F                         | 
+F       T              F               T          T                        |
+F       F              F                F         T                        | 
+                                                                                 |
+                                                                                 |
+--------------------------------------------------------------.
+Increment/Decrement operators
+PRE:++a
+POST:a++
+
+
+Unary and Assignment operators are evaluated from Right to Left
+Rest all are Left ot Right
+
+Bitwise Operators
+&,|,>>,<<,^,~
+
+a  b  a&b  a|b  a^b
+0  0   0        0     0
+1  0   0        1     1
+0  1    0       1     1
+1  1    1       1     0
+
+
+>>: Shifts bits towards right
+<<: Shifts bits towards left\
+~ : one's complement
